@@ -1,0 +1,26 @@
+# Local runtime data and generated caches
+.pg/
+frontend/node_modules/
+.playwright-cli/
+**/__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+credentials.*
+secrets.*
+token.txt
+tokens/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+
+# Local logs
+*.log
